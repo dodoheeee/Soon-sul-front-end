@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hl-1 {
+    font-weight: 600;
+    font-size: 64px;
+  }
+  .hl-2 {
+    font-weight: 600;
+    font-size: 56px;
+  }
+  .hl-3 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .hl-4 {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .hl-5 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .hl-6 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .st-1 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .st-2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .st-3 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .b-1 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .b-2 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .b-3 {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .la-1 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .la-2 {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .la-3 {
+    font-weight: 500;
+    font-size: 11px;
+  }
+}
