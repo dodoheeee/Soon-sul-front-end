@@ -37,7 +37,7 @@ const LoginPage = () => {
         </div>
         <div className="flex justify-center pb-2">
           <Link
-            href={`${KAKAO_AUTH_URL}?client_id=${KAKAO_AUTH_CLIENT_ID}&redirect_uri=${KAKAO_AUTH_REDIRECT_URI}&response_type=code&state=${NAVER_AUTH_STATE}`}
+            href={`${NAVER_AUTH_URL}?client_id=${NAVER_AUTH_CLIENT_ID}&redirect_uri=${NAVER_AUTH_REDIRECT_URI}&response_type=code`}
           >
             <Image
               src={"/img/login_naver.svg"}
@@ -49,7 +49,7 @@ const LoginPage = () => {
         </div>
         <div className="flex justify-center pb-2">
           <Link
-            href={`${NAVER_AUTH_URL}?client_id=${NAVER_AUTH_CLIENT_ID}&redirect_uri=${NAVER_AUTH_REDIRECT_URI}&response_type=code`}
+            href={`${KAKAO_AUTH_URL}?client_id=${KAKAO_AUTH_CLIENT_ID}&redirect_uri=${KAKAO_AUTH_REDIRECT_URI}&response_type=code&state=${NAVER_AUTH_STATE}`}
           >
             <Image
               src={"/img/login_kakao.svg"}
@@ -60,12 +60,16 @@ const LoginPage = () => {
           </Link>
         </div>
         <div className="flex justify-center">
-          <Image
-            src={"/img/login_google.svg"}
-            alt="login"
-            width={320}
-            height={48}
-          />
+          <Link
+            href={`${GOOGLE_AUTH_URL}?client_id=${GOOGLE_AUTH_CLIENT_ID}&redirect_uri=${GOOGLE_AUTH_REDIRECT_URI}&response_type=code&scope=${GOOGLE_AUTH_SCOPE}`}
+          >
+            <Image
+              src={"/img/login_google.svg"}
+              alt="login"
+              width={320}
+              height={48}
+            />
+          </Link>
         </div>
       </div>
     </div>

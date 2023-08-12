@@ -1,0 +1,20 @@
+{
+  "signup.terms.label1": "만 14세 이상입니다",
+  "signup.terms.label2": "이용약관 동의",
+  "signup.terms.label3": "개인정보처리방침 동의",
+  "signup.terms.all": "전체 동의합니다.",
+  "common.required": "필수",
+  "common.prize": "수상내역",
+  "common.salePlace": "판매처",
+  "common.show": "보기",
+  "common.complete": "완료",
+  "common.starRank": "별점",
+  "common.ReviewPost": "리뷰 남기기",
+  "common.ReviewPost.placeholder": "기록 및 공유하고 싶은 내용을 입력하세요.",
+  "common.Evaluation": "맛 평가",
+  "liquor.category.L001": "탁주",
+  "liquor.category.L002": "약주/청주",
+  "liquor.category.L003": "증류식소주",
+  "liquor.category.L004": "과실주",
+  "liqour.detail.fold": "상세정보 보기"
+}
